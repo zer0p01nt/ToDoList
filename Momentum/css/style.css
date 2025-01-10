@@ -1,0 +1,48 @@
+* {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+  object-fit: cover;
+  opacity: 0.3;
+}
+
+#clock {
+  font-size: 500%;
+}
+
+.quote {
+  font-style: italic;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#weather {
+  position: fixed;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+}
